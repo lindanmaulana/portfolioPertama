@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My portofolio</title>
-    <link rel="stylesheet" href="/public/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
     <!-- header start -->
     <header>
       <!-- navbar start -->
-      <nav class="container w-full flex flex-wrap py-4 px-8 bg-slate-950 fixed top-0">
+      <nav class="container">
+        <div class="w-full flex flex-wrap py-4 px-8 bg-slate-950 fixed top-0">
           <div class="w-full lg:w-1/2 text-center lg:text-start">
             <h1
               class="font-bold uppercase bg-gradient-to-r from-rose-600 to-white bg-clip-text text-transparent pl-8"
@@ -48,11 +49,13 @@
               </li>
             </ul>
           </div>
+        </div>
       </nav>
       <!-- navbar end -->
 
       <!-- home start -->
-      <div class="container w-full flex py-36 bg-slate-900" id="home">
+      <div class="container" id="home">
+        <div class="w-full flex py-36 bg-slate-900">
           <div
             class="flex flex-wrap justify-center items-center px-20 mx-auto text-white"
           >
@@ -80,7 +83,7 @@
             <div class="w-full md:w-1/2">
               <div class="w-80 m-auto">
                 <img
-                  src="/src/me.png"
+                  src="src/me.png"
                   alt="ini saya"
                   width="100%"
                   height="auto"
@@ -89,6 +92,7 @@
               </div>
             </div>
           </div>
+        </div>
       </div>
       <!-- home end -->
     </header>
